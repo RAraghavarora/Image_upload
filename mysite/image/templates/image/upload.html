@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>Uploads</title>
+		{% load static %}
+	<head>
+   <body>   
+      {% if saved %}
+         <strong>Your profile was saved.</strong>
+         <img src="{% static '/saved.jpg' %}" alt="Your profile picture" > 
+         <!--img src="/saved.jpg"-->
+
+      {% endif %}
+      
+      {% if not saved %}
+         <strong>Your profile was not saved.</strong>
+         <img src="{% static '/saved.jpg' %}" alt="Your profile picture" >
+      {% endif %}
+      
+   </body>
+</html>
