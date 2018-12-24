@@ -7,8 +7,3 @@ Install python , and then while in the main directory containing the manage.py f
 python manage.py runserver
 
 Go to the link 127.0.0.1:8000/image or 127.0.0.1:8000/admin in your web browser
-
-For the admin site, username = admin
-                    password = superuser
-                    
-          
